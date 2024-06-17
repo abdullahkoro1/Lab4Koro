@@ -42,7 +42,7 @@ public class GameBJSONReceiver
         try (ServerSocket serverSocket = new ServerSocket(8080))
 
         {
-            System.out.println("Listening on port 8080...");
+            System.out.println("Listening on port 8080");
             while (true)
 
             {
@@ -87,7 +87,7 @@ public class GameBJSONReceiver
                     {
                         System.out.println();
                     }
-                    
+
                 }
             }
         }

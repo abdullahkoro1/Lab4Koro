@@ -28,7 +28,7 @@ public class GameObject
         this.score = score;
     }
 
-    // Getters and setters (optional, but recommended for encapsulation)
+    // Getters and setters
     public String getName()
     {
         return name;
